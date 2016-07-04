@@ -32,7 +32,7 @@ window.onload = function() {
     /* BUGFIX
      *
      * I have no idea why but YouTube's iframe API doesn't always work as documented in the docs in case of
-     * `onStateChange` event. So we poll the state of the player every 10 ms.
+     * `onStateChange` event. So we poll the state of the player every 50 ms.
      *
      * Source:
      *     http://stackoverflow.com/a/17078152/4466589
